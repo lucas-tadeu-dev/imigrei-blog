@@ -1,0 +1,410 @@
+:root {
+  --primary-color: #1d1d1d;
+  --second-color: #1e5720;
+  --third-color: #e3f1e4;
+  --fourth-color: #777777;
+  --fifth-color: #f5c731;
+  --sixth-color: #11569e;
+  --seventh-color: #d9d9d9;
+  --eighth-color: #8f2929;
+
+  /* title */
+  --ff-1: 'Space Grotesk', Sans-serif;
+  /* max-width */
+  --mx-wid: 1000px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    /* max-width */
+    --mx-wid: 100%;
+  }
+}
+/*-------Cidadania Portuguesa-----
+-------------pt1-container-----*/
+#menu {
+  background-color: white;
+}
+
+.pt1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/CidadaniaPortuguesa/imgBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pt1-container {
+  display: flex;
+  max-width: var(--mx-wid);
+  height: 384px;
+}
+.pt1-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pt1 .content {
+  color: var(--eighth-color);
+}
+
+.pt1 .title {
+  color: var(--eighth-color);
+}
+.title2::after {
+  content: '';
+  display: inline-block;
+  background-image: url('./../img/icon/🇵🇹.png');
+  background-size: cover;
+  height: 25px;
+  width: 28px;
+  margin-left: 2rem;
+}
+
+.know-services-pt {
+  display: flex;
+  flex-direction: column;
+}
+.know-services-pt .title {
+  font-size: 39px;
+  color: var(--second-color);
+}
+.title-color {
+  color: var(--eighth-color) !important;
+}
+
+.know-services-pt p {
+  max-width: 78%;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.banners-pt {
+  width: 80%;
+  height: 384px;
+}
+.know-services-pt img {
+  display: none;
+}
+
+.know-services-pt img {
+  height: 25px;
+  width: 28px;
+  align-self: center;
+  margin: 1rem;
+}
+
+@media (max-width: 800px) {
+  .know-services-pt img {
+    display: block;
+  }
+  .pt1-container {
+    flex-direction: column;
+    background-color: var(--third-color);
+    height: 440px;
+    text-align: center;
+  }
+  .banners-pt img {
+    width: 300px;
+    height: 173px;
+    margin-left: 50px;
+  }
+
+  .know-services-pt {
+    margin-top: 20px;
+  }
+  #menu {
+    background-color: var(--third-color);
+  }
+
+  .title::after {
+    display: none;
+  }
+  .pt1-container {
+    height: 470px;
+  }
+}
+@media (max-width: 800px) {
+  .banners-pt2 img {
+    width: 330px !important;
+    height: 263px !important;
+    margin-left: 150px !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .banners-pt2 img {
+    width: 300px !important;
+    height: 243px !important;
+    margin-left: 50px !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .banners-pt2 img {
+    width: 300px !important;
+    height: 173px !important;
+    margin-left: 50px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .banners-pt2 img {
+    margin-left: 0px !important;
+    width: 300px !important;
+  }
+}
+
+/*-------Cidadania Portuguesa-----
+-------------pt2-container-----*/
+.home2-container {
+  /* background-color: #fafafa; */
+}
+.pt2 {
+  background-color: white !important;
+}
+.home-about-pt {
+  justify-content: center;
+}
+
+/*-------Cidadania Portuguesa-----
+-------------pt3-container-----*/
+.pt3-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.pt3-container {
+  font-variant: var(--mx-wid);
+}
+
+.pt3-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 5%;
+}
+.pt3-services li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+}
+.pt3-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .pt3-services {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .pt3-desc {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .pt3-desc p {
+    min-width: 20ch;
+  }
+}
+
+/*-------Cidadania Portuguesa-----
+-------------pt4-container-----*/
+.pt4-section {
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #e3f1e4 60%, white 20%);
+}
+.pt4-container {
+  max-width: var(--mx-wid);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pt4-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.pt4-desc .content {
+  max-width: 70%;
+  align-self: center;
+}
+.pt4-explanation {
+  margin-top: 2rem;
+}
+.pt4-list {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+.pt4-list li {
+  background-color: white;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.pt4-img {
+  background-color: #f5c731;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pt4-title {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--ff-1);
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  .pt4-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pt4-list li {
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+  }
+  .pt4-img {
+    height: 80px;
+    width: 30%;
+    margin-right: 3rem;
+  }
+  .pt4-org {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+}
+/*-------Cidadania Portuguesa-----
+-------------pt5-container-----*/
+
+.pt5-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 8rem;
+}
+.pt5-faq-desc {
+  text-align: center;
+  margin-top: 5rem;
+}
+.pt5-container {
+  max-width: var(--mx-wid);
+}
+.details {
+  padding: 1rem;
+}
+.summary {
+  font-size: 20px;
+  font-weight: 550;
+  border-bottom: 0.9px solid var(--second-color);
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.summary .content {
+  max-width: 700px;
+}
+summary {
+  display: block;
+}
+.pt5-content {
+  max-width: 700px;
+}
+summary::after {
+  margin-right: 20px;
+  display: inline-block;
+  transition: 0.2s;
+  content: '';
+  background-image: url(./../img/svg/plus-square.svg);
+  background-size: cover;
+  height: 25px;
+  width: 28px;
+}
+
+details[open] summary::after {
+  margin-left: 1ch;
+  display: inline-block;
+  transition: 0.2s;
+  content: '';
+  background-image: url(./../img/svg/minus-square.svg);
+  background-size: cover;
+  height: 25px;
+  width: 28px;
+}
+@media (max-width: 800px) {
+  .pt5-section {
+    margin-top: 3rem;
+  }
+  .summary {
+    font-size: 16px;
+  }
+}
+/*-------Cidadania Portuguesa-----
+-------------pt6-container-----*/
+.pt6-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.pt6-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third-color);
+  max-width: var(--mx-wid);
+}
+.pt6-section .banners {
+  max-width: none;
+}
+.pt6-container .know-services {
+  margin-left: 60px;
+  max-width: none;
+}
+
+@media (max-width: 800px) {
+  .pt6-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .pt6-container .know-services {
+    margin-left: 0;
+  }
+}
+
+/*-------Cidadania Portuguesa-----
+-------------pt7-container-----*/
+.home-about {
+  background-color: #fafafa;
+  padding: 10px;
+}
+.pt1 {
+  background-position-x: right;
+}

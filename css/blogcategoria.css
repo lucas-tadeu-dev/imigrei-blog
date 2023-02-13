@@ -1,0 +1,198 @@
+:root {
+  --primary-color: #1d1d1d;
+  --second-color: #1e5720;
+  --third-color: #e3f1e4;
+  --fourth-color: #777777;
+  --fifth-color: #f5c731;
+  --sixth-color: #11569e;
+  --seventh-color: #d9d9d9;
+  --eighth-color: #8f2929;
+
+  /* title */
+  --ff-1: 'Space Grotesk', Sans-serif;
+  /* max-width */
+  --mx-wid: 1000px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    /* max-width */
+    --mx-wid: 100%;
+  }
+}
+/*-------------------------------------------------------------------
+------------------------------ BG-CT1------------------------------
+---------------------------------------------------------------------*/
+.bg-ct-section {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #e3f1e4 20%, white 10%);
+  background-size: cover;
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+}
+
+.bg-ct-container {
+  max-width: var(--mx-wid);
+  display: flex;
+  flex-direction: column;
+}
+.filters {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.filters .title {
+  color: var(--second-color) !important;
+  font-size: 35px !important;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 2rem;
+}
+.filter p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--second-color);
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+.bg-ct-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+.bg-ct-flexbox li {
+  width: 300px;
+  /* height: 100%; */
+}
+.bg-ct-flexbox li .plane-img {
+  width: 100%;
+  min-height: 320px;
+}
+
+.bg-ct-flexbox li .title {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.bg-ct-flexbox li .content {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.bg-ct-flexbox li .bg-time {
+  margin-left: 0px;
+}
+@media (max-width: 800px) {
+  .bg-ct-section {
+    margin-top: 0;
+  }
+  .bg-ct-flexbox li .plane-img {
+    min-height: 0px;
+  }
+  .bg-ct-flexbox li {
+    height: auto;
+  }
+  .bg-ct-flexbox li {
+    width: 90%;
+  }
+  .bg-ct-flexbox {
+    justify-content: center;
+    align-items: start;
+  }
+  .bg-ct-section .bg2-box1 .bg2-blog {
+    margin-left: 0px;
+  }
+}
+/*-------------------------------------------------------------------
+------------------------------ BG-CT2------------------------------
+---------------------------------------------------------------------*/
+.hidden-filter {
+  max-width: 300px;
+  background-color: white;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: start; */
+}
+.hidden-filter .cta-button {
+  margin-left: 0px;
+}
+.cta-form {
+  background-color: white !important;
+  border: 1px solid var(--second-color);
+  margin-top: 4px;
+}
+.cta-form-a {
+  color: var(--second-color) !important;
+}
+.hidden-filter {
+  display: none;
+}
+.block {
+  display: block !important;
+}
+.filter-ul li {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+  gap: 4px;
+}
+.filter-ul li p {
+  color: var(--second-color);
+  font-size: 15px;
+}
+.detail-star summary {
+  color: var(--second-color);
+}
+.filter-hidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sum::after {
+  margin-right: 0px;
+  display: inline-block;
+  transition: 0.2s;
+  content: '';
+  background-image: url(./../img/icon/Vector\ 8.png);
+  background-size: cover;
+  height: 10px;
+  width: 14px;
+  transform: translateX(-10px) !important;
+}
+
+details[open] .sum::after {
+  margin-left: 0ch;
+  display: inline-block;
+  transition: 0.2s;
+  content: '';
+  background-image: url(./../img/icon/Vector\ 2.png) !important;
+  background-size: cover;
+  height: 10px !important;
+  width: 14px !important;
+  transform: translateX(-10px) !important;
+}
+/* .filter-ul li input:checked {
+  border-color: red !important;
+  background-color: red !important;
+  color: var(--eighth-color) !important;
+} */
+/* 
+[type='checkbox']:checked {
+  background-color: red;
+}
+input[type='checkbox' i]:checked {
+  background-color: red;
+} */

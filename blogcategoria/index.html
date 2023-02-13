@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=no"
+    />
+    <!-- FAVOICON -->
+    <link rel="shortcut icon" href="./img/...." type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./../css/style.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <title>Imigrei</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <!-------------------------------------------------------------------
+      ------------------------------ HEADER------------------------------
+    --------------------------------------------------------------------->
+    <header class="header header-job header-blog">
+      <div class="logo logo-form">
+        <a href="./../index.html"
+          ><img src="./../img/home/Logo.png" alt="logo"
+        /></a>
+        <form method="get">
+          <input type="text" name="search" placeholder="Pesquise por tema" />
+        </form>
+      </div>
+      <div class="hamburguer">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav class="menu">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="./../index.html">Home</a></li>
+          <li class="nav-item menu-serv">
+            <a href="#"
+              >Serviços
+              <span
+                ><img
+                  src="./../img/icon/Vector 8.png"
+                  alt="icon-submenu" /></span
+            ></a>
+            <ul class="sub-menu">
+              <li class="nav-item">
+                <a href="./../cidadaniaportuguesa/">Cidadania Portuguesa</a>
+              </li>
+              <li class="nav-item">
+                <a href="./../cidadaniaitaliana/">Cidadania Italiana</a>
+              </li>
+              <li class="nav-item">
+                <a href="./../vistosportugal/">Vistos</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="./../index.html">Quem Somos</a></li>
+          <li class="nav-item"><a href="./../vistosportugal/">Vistos</a></li>
+          <li class="nav-item">
+            <form method="get">
+              <input
+                type="text"
+                name="search"
+                placeholder="Pesquise por tema"
+              />
+            </form>
+          </li>
+          <li class="nav-item cta-button cta-button-a">
+            <a href="./../contato/" class="eds nav-link">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-------------------------------------------------------------------href="#"
+      ------------------------------ BG-CT1------------------------------
+    --------------------------------------------------------------------->
+    <section class="bg-ct-section">
+      <div class="bg-ct-container">
+        <div class="filter-hidden">
+          <div class="filters">
+            <div class="title">Dicas Imigrei</div>
+            <div class="filter">
+              <img src="./../img/icon/bg13.png" alt="imagem" />
+              <div class="content">Filtros:</div>
+              <p>1</p>
+            </div>
+          </div>
+          <div class="hidden-filter">
+            <form action="#">
+              <!-- DETAILS -->
+              <details class="details detail-star">
+                <summary class="summary sum">Temas</summary>
+                <ul class="filter-ul">
+                  <li>
+                    <input type="checkbox" />
+                    <p>Dicas Imigrei</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" />
+                    <p>Itália</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" />
+                    <p>Portugal</p>
+                  </li>
+                </ul>
+              </details>
+
+              <!-- DETAILS -->
+              <details class="details detail-star">
+                <summary class="summary sum">Data</summary>
+                <ul class="filter-ul">
+                  <li>
+                    <input type="checkbox" />
+                    <p>Dia</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" value="checked" />
+                    <p>Mês</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" />
+                    <p>Ano</p>
+                  </li>
+                </ul>
+              </details>
+
+              <!-- DETAILS -->
+              <details class="details detail-star">
+                <summary class="summary sum">ordenar por</summary>
+                <ul class="filter-ul">
+                  <li>
+                    <input type="checkbox" />
+                    <p>categoria</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" />
+                    <p>Assunto</p>
+                  </li>
+                  <li>
+                    <input type="checkbox" />
+                    <p>Detalhe</p>
+                  </li>
+                </ul>
+              </details>
+              <!-- cta buttons -->
+              <button class="cta-button">
+                <div class="cta-button-a">Filtrar</div>
+              </button>
+              <button class="cta-button cta-form">
+                <div class="cta-button-a cta-form-a">Limpar</div>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <ul class="bg-ct-flexbox">
+          <!-- 3 -->
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg5.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg4.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg3.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+          <!-- 3 -->
+
+          <!-- 3 -->
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg5.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg4.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg3.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+          <!-- 3 -->
+
+          <!-- 3 -->
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg5.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg4.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bg2-box1">
+              <img class="plane-img" src="./../img/blog/bg3.png" alt="imagem" />
+              <div class="bg2-blog">
+                <div class="bg-time bt-time-main">09 AGO 22</div>
+                <div class="title">
+                  Como conquitas, rapidamente, o seu passaporte de portu...
+                </div>
+                <div class="content">
+                  Oferecemos uma variedade de serviços para os nossos...
+                </div>
+                <a href="./../blogpost/index.html" class="sub-title know-more">
+                  Ler este Post
+                  <img src="./../img/icon/arrow-up-right.png" alt="image" />
+                </a>
+              </div>
+            </div>
+          </li>
+          <!-- 3 -->
+        </ul>
+        <div class="cta-cat">
+          <a href="#" class="cta-button cta-button-cat"
+            ><div class="cta-button-a">Carregar mais Posts</div></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------
+      ------------------------------ BG-CT2------------------------------
+    --------------------------------------------------------------------->
+    <section class="home-4">
+      <div class="home-4-container">
+        <div class="newsletter">
+          <div class="sub-title">Newsletter</div>
+          <div class="title">Fique por dentro das nossas atualizações!</div>
+          <div class="content">
+            Saiba o que acontece no mundo da imigrações e cidadania em Portugal
+            e Itália.
+          </div>
+        </div>
+        <div class="newsletter-form">
+          <form action="#">
+            <input
+              type="text"
+              placeholder="Digite o seu melhor E-mail"
+              name="mail"
+              required
+            />
+            <button class="cta-button form-cta-button">Cadastrar</button>
+            <img class="plane1" src="./../img/svg/plane1.svg" alt="plane1" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------------------------------------------
+      ------------------------------ FOOTER------------------------------
+    --------------------------------------------------------------------->
+
+    <!-------------------------------------------------------------------
+      ------------------------------ FOOTER------------------------------
+    --------------------------------------------------------------------->
+
+    <footer>
+      <div class="img-background">
+        <div class="footer-container">
+          <!----UL ADDRESS------->
+          <div class="container">
+            <div class="footer-address">
+              <ul>
+                <a href="#"
+                  ><img
+                    src="./../img/home/Logo -white (1).png"
+                    alt="logo Imigrei"
+                /></a>
+                <p class="text-footer">
+                  Rua Manual João Souza, 540, São Paulo/SP - Brasil <br />
+                  CNPJ: 000000/0000-00
+                </p>
+                <div class="redesocial">
+                  <a class="insta" href="#" target="_blank"
+                    ><img src="./../img/home/Frame.png" alt="instagram"
+                  /></a>
+                  <a href="#" target="_blank"
+                    ><img src="./../img/home/Frame (1).png" alt="instagram"
+                  /></a>
+                </div>
+              </ul>
+            </div>
+            <!----UL LINK MENU------->
+            <div class="footer-links">
+              <ul>
+                <h2>Navegue</h2>
+                <li><a href="#">Home</a></li>
+                <li><a href="./../cidadaniaportuguesa/">Serviços</a></li>
+                <li><a href="#aboutus">Quem Somos</a></li>
+                <li><a href="./../blog/index.html">Blog</a></li>
+              </ul>
+            </div>
+
+            <!----UL CONTATO------->
+            <div class="footer-contact">
+              <ul>
+                <h2>Contato</h2>
+                <li>
+                  <a href="#" target="_blank">
+                    <img
+                      src="./../img/icon/Vector (2).png"
+                      alt="icone telefone"
+                    />55+ 11 0 0000 - 0000</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img
+                      src="./../img/icon/Vector (3).png"
+                      alt="icone email"
+                    />contato@imigrei.net</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <img
+                      src="./../img/icon/Vector (4).png"
+                      alt="icone whats"
+                    />55+ 11 9 9999 - 9999</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./../script.js"></script>
+  </body>
+</html>

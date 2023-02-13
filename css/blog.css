@@ -1,0 +1,171 @@
+:root {
+  --primary-color: #1d1d1d;
+  --second-color: #1e5720;
+  --third-color: #e3f1e4;
+  --fourth-color: #777777;
+  --fifth-color: #f5c731;
+  --sixth-color: #11569e;
+  --seventh-color: #d9d9d9;
+  --eighth-color: #8f2929;
+
+  /* title */
+  --ff-1: 'Space Grotesk', Sans-serif;
+  /* max-width */
+  --mx-wid: 1000px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    /* max-width */
+    --mx-wid: 100%;
+  }
+}
+
+/*---------------------------------------------------
+-----------------   BLOG 1 --------------------------- 
+------------------------------------------------------*/
+.bg1 {
+  background-image: url(./../img/blog/bg12.png) !important;
+}
+.title3 {
+  color: var(--second-color) !important;
+}
+.pt-img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.it-img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.bg1 .know-services-pt img {
+  display: inline-block !important;
+}
+.content1 {
+  color: var(--second-color) !important;
+}
+.know-title {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .know-title {
+    justify-content: center;
+  }
+}
+/*---------------------------------------------------
+-----------------   BLOG 2  --------------------------- ------------------------------------------------------*/
+.bt-time-main {
+  transform: translateY(0) !important;
+}
+
+.bg2-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.bg2-container {
+  max-width: var(--mx-wid);
+}
+.bg2-main {
+  display: flex;
+  flex-direction: row;
+}
+.bg3-blog {
+  text-align: start;
+}
+
+.bg2-box2 {
+  width: 50%;
+}
+.bg2-box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.bg2-box2 .content {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.bg2-box2 a {
+  font-size: 17px;
+}
+.bg2-box1 .bg2-blog {
+  margin-top: 20px;
+}
+.bg2-box2 {
+  padding-bottom: 10px;
+}
+.bg2-box2 li {
+  border-bottom: 1px solid var(--fourth-color);
+  padding-bottom: 15px;
+}
+@media (max-width: 800px) {
+  .bg2-main {
+    flex-direction: column;
+  }
+  .plane-img {
+    width: 300px;
+  }
+  .slider-img {
+    display: flex;
+    justify-content: center;
+  }
+  .title5 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .bg2-box2 {
+    gap: 50px;
+    margin-top: 2rem;
+    margin-left: 20px;
+  }
+  .bg2-box2 li {
+    min-width: 320px;
+  }
+  .bg2-box1 .bg2-blog {
+    margin-left: 20px;
+  }
+}
+/*---------------------------------------------------
+-----------------   BLOG 3  --------------------------- ------------------------------------------------------*/
+
+/*---------------------------------------------------
+-----------------   BLOG  --------------------------- ------------------------------------------------------*/
+.bg-categories-container li .title {
+  font-size: 23px !important;
+}
+.bg-categories-container li:nth-child(1) .title {
+  font-size: 23px !important;
+  font-weight: 600 !important;
+}
+/*---------------------------------------------------
+-----------------   BLOG  --------------------------- ------------------------------------------------------*/
+.bg7-section {
+  background-image: none !important;
+  height: 750px !important;
+}
+.bg1-categories-container li:nth-child(3) .box-image {
+  height: 310px;
+}
+.bg-time {
+  display: flex;
+  font-size: 14px;
+  transform: translateY(20px);
+  margin-left: 10px;
+  color: var(--fourth-color);
+}
+.bg-time span {
+  margin-left: 9px;
+  font-size: 14px;
+}
+@media (max-width: 800px) {
+  .banners-bg .know-services-banner {
+    width: 300px !important;
+    height: 265px !important;
+  }
+}

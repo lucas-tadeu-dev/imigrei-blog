@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #1d1d1d;
+  --second-color: #1e5720;
+  --third-color: #e3f1e4;
+  --fourth-color: #777777;
+  --fifth-color: #f5c731;
+  --sixth-color: #11569e;
+  --seventh-color: #d9d9d9;
+  --eighth-color: #8f2929;
+
+  /* title */
+  --ff-1: 'Space Grotesk', Sans-serif;
+  /* max-width */
+  --mx-wid: 1000px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    /* max-width */
+    --mx-wid: 100%;
+  }
+}
+
+/*-----------------------------------------------------------
+------------------------ IT 1 -------------------------------
+-------------------------------------------------------------*/
+.it1 {
+  background-image: url(./../img/it/it4bg.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+/*-----------------------------------------------------------
+------------------------ IT 2 -------------------------------
+-------------------------------------------------------------*/
+.title10::after {
+  content: '';
+  display: inline-block;
+  background-image: url('./../img/icon/🇮🇹.png');
+  background-size: cover;
+  height: 25px;
+  width: 28px;
+  margin-left: 2rem;
+}
+
+/*-----------------------------------------------------------
+------------------------ IT 3 -------------------------------
+-------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+------------------------ IT 4 -------------------------------
+-------------------------------------------------------------*/
+.it4-img {
+  background-color: var(--second-color) !important;
+}
+.banners-it img {
+  width: 350px !important;
+  height: 303px !important;
+}
+@media (max-width: 800px) {
+  .it1 {
+    background-color: var(--third-color) !important;
+  }
+  .banners-it img {
+    height: 263px !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .banners-it img {
+    height: 243px !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .banners-it img {
+    height: 223px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .banners-it img {
+    height: 173px !important;
+  }
+}

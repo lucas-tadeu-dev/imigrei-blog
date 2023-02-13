@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #1d1d1d;
+  --second-color: #1e5720;
+  --third-color: #e3f1e4;
+  --fourth-color: #777777;
+  --fifth-color: #f5c731;
+  --sixth-color: #11569e;
+  --seventh-color: #d9d9d9;
+  --eighth-color: #8f2929;
+
+  /* title */
+  --ff-1: 'Space Grotesk', Sans-serif;
+  /* max-width */
+  --mx-wid: 1000px;
+}
+.title55 {
+  font-size: 40px;
+  color: var(--eighth-color) !important;
+}
+@media (max-width: 800px) {
+  :root {
+    /* max-width */
+    --mx-wid: 100%;
+  }
+}
+
+/*--------------------------------------
+----------------VISTOS 1------------------
+---------------------------------------  */
+.vt1 {
+  background-image: url(./../img/vistos/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 800px) {
+  .vt1 .banners-pt img {
+    width: 120%;
+    margin-left: 20px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 425px) {
+  .vt1 .banners-pt img {
+    width: 120%;
+    margin-left: 20px;
+    height: 190px;
+  }
+}
+/*--------------------------------------
+----------------VISTOS 2------------------
+---------------------------------------  */
+.vt2-section {
+  background: none !important;
+  margin-top: 8rem;
+}
+
+.vt4-list {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-align: start;
+}
+.vt4-list li {
+  min-width: 320px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+}
+.vt4-list li .pt4-org {
+  height: 200px;
+}
+@media (max-width: 800px) {
+  .vt4-list {
+    flex-direction: row;
+  }
+}
+@media (max-width: 376px) {
+  .banners-pt3 img {
+    height: 193px !important;
+  }
+}
+@media (max-width: 321px) {
+  .banners-pt3 img {
+    height: 173px !important;
+  }
+}
+/*--------------------------------------
+----------------VISTOS 3------------------
+---------------------------------------  */
+
+/*--------------------------------------
+----------------VISTOS 4------------------
+---------------------------------------  */
+.pt4-explanation {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+@media (max-width: 800px) {
+  .pt4-explanation .back-arrow {
+    display: none;
+  }
+  .pt4-explanation .front-arrow {
+    display: none;
+  }
+}
