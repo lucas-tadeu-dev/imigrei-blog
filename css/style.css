@@ -128,7 +128,7 @@ p {
   margin-top: 7rem;
 }
 .home7-img img {
-  transform: translateY(14px);
+  transform: translateY(6px);
 }
 @media (max-width: 800px) {
   .title {
